@@ -4,7 +4,7 @@ $db   = 'sitios_alumnos';
 $user = 'alumnos';
 $pass = 'alumnopass';
 $charset = 'utf8mb4';
-
+//este es un comentario de prueba
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
